@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="globe144p" src="img_earth/img_144ps.jfif" alt="Globe 144p">
+    <img id="globe240p" src="img_earth/img_240ps.jfif" alt="Globe 240p">
+    <img id="globe720p" src="img_earth/img_720p.jfif" alt="Globe 720p">
+    <img id="globe1080p" src="img_earth/cat.jfif" alt="Globe 1080p">
+
+    <div id="quality-options">
+        <select onchange="changeQuality(this.value)">
+            <option value="144p">144p</option>
+            <option value="240p">240p</option>
+            <option value="720p">720p</option>
+            <option value="1080p">Thế giới của tuii</option>
+        </select>
+    </div>
+    
+    <div class="heart" id="heart"></div>
+    <div id="youContainer"></div>
+
+    <script src="globe.js"></script>
+</body>
+</html>
